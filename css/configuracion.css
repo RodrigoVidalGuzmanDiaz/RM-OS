@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+    font-size: 10px;
+
+    font-family: 'JetBrains Mono', monospace;
+}
+
+:root{
+    /*Color del fondo del escritorio*/
+    --colorFondo: #21428F;
+    /*Color de la barra de tareas*/
+    --colorBarra: #101010;
+    /*Color del icono de la carpeta*/
+    --colorCarpeta: #FFCF66;
+    /*Color de fondo de la ventana*/
+    --colorParteSuperior: #2B2B2B;
+    --colorFondoVentana: #333333;
+    
+    /**Color de los iconos de la barra de tareas*/
+    --colorIconos: #B8B8B8;
+}
