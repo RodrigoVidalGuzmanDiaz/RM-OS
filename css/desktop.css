@@ -1,0 +1,35 @@
+.escritorio{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.fondo{
+
+
+    width: 112rem;
+    height: 55rem;
+    
+    background-color: var(--colorFondo);
+}
+.barra{
+    width: 112rem;
+    height: 5rem;
+
+    background-color: var(--colorBarra);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.barra img{
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-left: 1rem;
+
+    cursor: pointer;
+}
