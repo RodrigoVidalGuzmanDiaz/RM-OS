@@ -26,10 +26,23 @@
     justify-content: space-between;
     align-items: center;
 }
-.barra img{
+.menu{
     width: 3.6rem;
     height: 3.6rem;
     margin-left: 1rem;
 
+    cursor: pointer;
+}
+.explorador{
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-left: 1rem;
+
+    cursor: pointer;
+}
+.fecha{
+    width: auto;
+    height: 4rem;
+    
     cursor: pointer;
 }
