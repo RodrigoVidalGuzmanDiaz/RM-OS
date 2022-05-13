@@ -1,0 +1,43 @@
+.barra{
+    width: 112rem;
+    height: 5rem;
+
+    background-color: var(--colorBarra);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu, .explorador, .chrome{
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-left: 1rem;
+
+    cursor: pointer;
+}
+
+/*METODO HOVER*/
+.menu:hover{
+    transition: 0.2s;
+    width: 4rem;
+    height: 4rem;
+}
+.explorador:hover{
+    transition: 0.2s;
+    width: 4rem;
+    height: 4rem;
+}
+.chrome:hover{
+    transition: 0.2s;
+    width: 4rem;
+    height: 4rem;
+}
+
+
+.fecha{
+    width: auto;
+    height: 4rem;
+    
+    cursor: pointer;
+}

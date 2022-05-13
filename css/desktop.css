@@ -8,41 +8,24 @@
 
 }
 .fondo{
-
+    background-image: url(https://cutt.ly/aGBezSQ);
+    background-size: cover;
 
     width: 112rem;
     height: 55rem;
     
     background-color: var(--colorFondo);
-}
-.barra{
-    width: 112rem;
-    height: 5rem;
-
-    background-color: var(--colorBarra);
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-.menu{
-    width: 3.6rem;
-    height: 3.6rem;
-    margin-left: 1rem;
-
-    cursor: pointer;
+.menu_deplegado{
+    display: none;
+    width: 40rem;
+    height: 45rem;
+    background-color: #1F1F1F;
 }
-.explorador{
-    width: 3.6rem;
-    height: 3.6rem;
-    margin-left: 1rem;
-
-    cursor: pointer;
-}
-.fecha{
-    width: auto;
-    height: 4rem;
-    
-    cursor: pointer;
+.activar{
+    display: block;
 }
