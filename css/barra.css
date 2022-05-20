@@ -1,37 +1,46 @@
 .barra{
-    width: 112rem;
+    width: 100%;
     height: 5rem;
-
+    padding: 0 1rem;
     background-color: var(--colorBarra);
-
+    position: absolute;
+    bottom: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+.izquierda{
+    display: flex;
+    flex-direction: row;
+}
 .menu, .explorador, .chrome{
-    width: 3.6rem;
     height: 3.6rem;
     margin-left: 1rem;
-
     cursor: pointer;
 }
-
+.contenedor:hover img{
+    transform:scale(1.3);
+}
 /*METODO HOVER*/
+
 .menu:hover{
     transition: 0.2s;
     width: 4rem;
     height: 4rem;
+    border-radius: 0.5rem;
 }
 .explorador:hover{
     transition: 0.2s;
     width: 4rem;
     height: 4rem;
+    border-radius: 0.5rem;
 }
 .chrome:hover{
     transition: 0.2s;
     width: 4rem;
     height: 4rem;
+    border-radius: 0.5rem;
 }
 
 

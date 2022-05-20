@@ -1,29 +1,26 @@
-.escritorio{
-
-
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
-
-}
-.fondo{
-    background-image: url(https://cutt.ly/aGBezSQ);
+body{
+       background-image: url(https://goo.su/yv1x);
     background-size: cover;
 
-    width: 112rem;
-    height: 55rem;
-    
-    background-color: var(--colorFondo);
+    width: 100%;
+    height: 99.6vh;
+    display: flex;
+    justify-content: center;
+}
+.escritorio{
+    width: 100%;
+    height: 100%;
+    position: relative;
 
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-end;
 }
 .menu_deplegado{
     display: none;
     width: 40rem;
-    height: 45rem;
+    height: 60rem;
     background-color: #1F1F1F;
 }
 .activar{
