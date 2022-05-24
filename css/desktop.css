@@ -8,10 +8,14 @@ body{
     justify-content: center;
 }
 .escritorio{
+    display: flex;
+}
+.escritorio{
     width: 100%;
-    height: 100%;
+    height: 99.9%;
     position: relative;
 }
+
 .menus{
     display: flex;
     height: 100%;
@@ -71,3 +75,6 @@ body{
 .activar{display: block;}
 .desactivar{display: none;}
 .activarFlex{display: flex;}
+
+
+/**Pruebas Html*/
