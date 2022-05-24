@@ -26,11 +26,13 @@ function cerrarMenu(){
     
     ico_menu.classList.remove('desactivar')
     ico_menu2.classList.remove('activarBoton');
-}
-function explorador(){
-
-    var ico_explo = document.getElementById('ico_explo')
-    
-
+}  
+function explorador() {
+    var x = document.getElementById('ventanaExplorador')
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }
 
