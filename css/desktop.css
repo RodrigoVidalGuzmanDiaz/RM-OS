@@ -14,11 +14,10 @@ body{
 }
 .menus{
     display: flex;
-    max-height: 40rem;
-
+    height: 100%;
     justify-content: flex-start;
     flex-direction: row;
-    margin-left: 8rem;
+    align-items: flex-end;
     position: absolute;
 }
 .menu_opciones_desplegado{
@@ -29,7 +28,7 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 7rem;
 }
 .menu_opciones_desplegado img{
     align-items: flex-end;
@@ -48,9 +47,7 @@ body{
     margin: auto;
     background-color: aqua;
     width: 40rem;
-   
-    height: 30rem;
-
+    height: 25rem;
 }
 .opciones_ventanaExplorador{
     display: flex;
