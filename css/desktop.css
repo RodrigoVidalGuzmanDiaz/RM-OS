@@ -1,5 +1,5 @@
 body{
-       background-image: url(https://goo.su/yv1x);
+    background-image: url(https://goo.su/yv1x);
     background-size: cover;
 
     width: 100%;
@@ -11,18 +11,66 @@ body{
     width: 100%;
     height: 100%;
     position: relative;
-
+}
+.menus{
     display: flex;
+    max-height: 40rem;
+
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 8rem;
+    position: absolute;
+}
+.menu_opciones_desplegado{
+    display: none;
+    width: 5.8rem;
+    height: 50rem;
+    background-color: #353535;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.menu_opciones_desplegado img{
+    align-items: flex-end;
+    width: 4rem;
+    cursor: pointer;
+    margin-top: 1rem;
 }
 .menu_deplegado{
     display: none;
     width: 40rem;
-    height: 60rem;
+    height: 50rem;
+
     background-color: #1F1F1F;
 }
-.activar{
-    display: block;
+.ventanaExplorador{
+    margin: auto;
+    background-color: aqua;
+    width: 40rem;
+   
+    height: 30rem;
+
 }
+.opciones_ventanaExplorador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+.opciones_ventanaExplorador img{
+    width: auto;
+    height: 5rem;
+    
+}
+.menuExplorador{
+    width: 20rem;
+    height: 20rem;
+    background-color: aqua;
+
+}
+/*Efectos JavaScript*/
+.activar{display: block;}
+.desactivar{display: none;}
+.activarFlex{display: flex;}
