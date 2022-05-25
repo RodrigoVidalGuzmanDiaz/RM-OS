@@ -35,4 +35,46 @@ function explorador() {
         x.style.display = "block";
     }
 }
+function cerrarVentana(){
+    var ventanaExplorador = document.getElementById('ventanaExplorador')
+    var cerrar = document.getElementById('cerrar')
+    if(ventanaExplorador.style.display == "none"){
 
+    }else{
+        ventanaExplorador.style.display = "none";
+    }    
+}
+cerrar.addEventListener('click', cerrarVentana )
+
+function minimizarVentana(){
+    var ventanaExplorador = document.getElementById('ventanaExplorador')
+    var minimizar = document.getElementById('minimizar')
+    if(ventanaExplorador.style.display == "none"){
+
+    }else{
+        ventanaExplorador.style.display = "none";
+    }    
+}
+minimizar.addEventListener('click', minimizarVentana)
+
+function maximizarVentana(){
+    var maximizar = document.getElementById('maximizar')
+    var maximizar2 = document.getElementById('maximizar2')
+    var ventanaExplorador = document.getElementById('ventanaExplorador')
+
+    ventanaExplorador.classList.add('maximizarVentana')
+    maximizar.classList.add('desactivar')
+    maximizar2.classList.add('activar')
+}
+maximizar.addEventListener('click', maximizarVentana)
+
+function normalizarVentana(){
+    var maximizar = document.getElementById('maximizar')
+    var maximizar2 = document.getElementById('maximizar2')
+    var ventanaExplorador = document.getElementById('ventanaExplorador')
+    
+    ventanaExplorador.classList.remove('maximizarVentana')
+    maximizar.classList.remove('desactivar')
+    maximizar2.classList.remove('activar')
+}
+maximizar2.addEventListener('click', normalizarVentana)
