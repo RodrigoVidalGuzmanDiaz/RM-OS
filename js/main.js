@@ -1,4 +1,5 @@
 //Funcion 
+
 function desplegarMenu(){
     /*variables que harán la accion*/
     var ico_menu = document.getElementById('ico_menu');
@@ -59,22 +60,44 @@ minimizar.addEventListener('click', minimizarVentana)
 
 function maximizarVentana(){
     var maximizar = document.getElementById('maximizar')
-    var maximizar2 = document.getElementById('maximizar2')
+    var normalizar = document.getElementById('normalizar')
     var ventanaExplorador = document.getElementById('ventanaExplorador')
 
     ventanaExplorador.classList.add('maximizarVentana')
     maximizar.classList.add('desactivar')
-    maximizar2.classList.add('activar')
+    normalizar.classList.add('activar')
 }
 maximizar.addEventListener('click', maximizarVentana)
 
 function normalizarVentana(){
     var maximizar = document.getElementById('maximizar')
-    var maximizar2 = document.getElementById('maximizar2')
+    var normalizar = document.getElementById('normalizar')
     var ventanaExplorador = document.getElementById('ventanaExplorador')
     
     ventanaExplorador.classList.remove('maximizarVentana')
     maximizar.classList.remove('desactivar')
-    maximizar2.classList.remove('activar')
+    normalizar.classList.remove('activar')
 }
-maximizar2.addEventListener('click', normalizarVentana)
+normalizar.addEventListener('click', normalizarVentana)
+
+function apagarEquipo(){
+    var escritorio = document.getElementById('escritorio')
+    
+    var mensaje_de_apagado = document.getElementById('mensaje_de_apagado')
+
+    escritorio.classList.add('desactivar')
+    mensaje_de_apagado.classList.add('activarFlex')
+}
+var botonApagar = document.getElementById('apagar')
+botonApagar.addEventListener('click', apagarEquipo)
+
+function encenderEquipo(){
+    var escritorio = document.getElementById('escritorio')
+    
+    var mensaje_de_apagado = document.getElementById('mensaje_de_apagado')
+
+    escritorio.classList.remove('desactivar')
+    mensaje_de_apagado.classList.remove('activarFlex')
+}
+var botonEncender = document.getElementById('encender')
+botonEncender.addEventListener('click', encenderEquipo)
